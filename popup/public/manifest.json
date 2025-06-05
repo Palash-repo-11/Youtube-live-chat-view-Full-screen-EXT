@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.2",
+  "name": "Content with react",
+  "description": "some desc™",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["react-app-holder.js"]
+    },
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["content.js"]
+    }
+  ]
+}
